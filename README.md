@@ -1,1 +1,1 @@
-# homeworks repo
+# homeworks repository

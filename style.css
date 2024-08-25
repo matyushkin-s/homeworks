@@ -1,0 +1,75 @@
+header{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: 760px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+img.sunset{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+img.car01{
+    border-style: dashed;
+    margin-right: 4px;
+}
+img.car02{
+    border-style: dashed;
+    margin-right: 4px;
+}
+img.car03{
+    border-style: dashed;
+    margin-right: 4px;
+}
+img.car04{
+    border-style: dashed;
+    margin-right: 4px;
+}
+img.car05{
+    border-style: dashed;
+}
+.italic{
+    font-style: italic;
+    font-weight: lighter;
+}
+.bold{
+    font-weight: 700;
+}
+.bluetext{
+    font-style: italic;
+    color: blue;
+    font-weight: bolder;
+}
+.colortext{
+    color: blue;
+    font-weight: lighter;
+}
+p{
+    width: 760px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+    font-size: 18px;
+}
+i:before{
+    content: "\00A9 \00A0";
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    width: 760px;
+    margin: auto;
+    font-size: 20px;
+}

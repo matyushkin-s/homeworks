@@ -19,40 +19,15 @@ div{
     justify-content: center;
     height: 100%; 
 }
-img.car01{
+.car{
     border-style: dashed;
     margin-right: 4px;
-}
-img.car02{
-    border-style: dashed;
-    margin-right: 4px;
-}
-img.car03{
-    border-style: dashed;
-    margin-right: 4px;
-}
-img.car04{
-    border-style: dashed;
-    margin-right: 4px;
-}
-img.car05{
-    border-style: dashed;
 }
 .italic{
     font-style: italic;
-    font-weight: lighter;
 }
-.bold{
-    font-weight: 700;
-}
-.bluetext{
-    font-style: italic;
-    color: blue;
-    font-weight: bolder;
-}
-.colortext{
-    color: blue;
-    font-weight: lighter;
+.link{
+    text-decoration: none;
 }
 p{
     width: 760px;
@@ -61,7 +36,7 @@ p{
     margin-top: 20px; 
     font-size: 18px;
 }
-i:before{
+span:before{
     content: "\00A9 \00A0";
 }
 footer{

@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <h1>HTML Elements</h1>
-        <hr class="hd">
+        <hr>
         <nav>
-            <ul class="top">
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="#part1" class="link">Headers</a></li>
-                <li><a href="#part2" class="link">Table</a></li>
-                <li><a href="#part3" class="link">List</a></li>
-                <li><a href="#part4" class="link">Text formats</a></li>
-                <li><a href="#part5" class="link">Blockquotes</a></li>
+            <ul>
+                <li style="display: inline-block;"><a href="#" class="link">Home</a></li>
+                <li style="display: inline-block;"><a href="#part1" class="link">Headers</a></li>
+                <li style="display: inline-block;"><a href="#part2" class="link">Table</a></li>
+                <li style="display: inline-block;"><a href="#part3" class="link">List</a></li>
+                <li style="display: inline-block;"><a href="#part4" class="link">Text formats</a></li>
+                <li style="display: inline-block;"><a href="#part5" class="link">Blockquotes</a></li>
             </ul> 
         </nav>
-        <hr class="hd">
+        <hr>
     </header>
     <main>
     <p id="part1">Pay attention to h1 tag inside section element. Font-size 
         for h1 is the same as font-size for h2, because we have to use 
         only one h1 on the page, and it is commonly used inside header</p>
         <div>
-        <h2 class="exp">Header 2</h2>
-        <h3 class="exp">Header 3</h3>
-        <h4 class="exp">Header 4</h4>
-        <h5 class="exp">Header 5</h5>
-        <h6 class="exp">Header 6</h6>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
         </div>
     
         <h2 id="part2">Table</h2>
-        <table>
+        <table width="100%" height="100%">
             <tr>
                 <th>Header</th>
                 <th>Header</th>
@@ -58,10 +57,10 @@
             </tr>
         </table>
         <h2 id="part3">Unordered List</h2>
-        <ul>
+        <ul type="square">
             <li>List item 1</li>
             <li>List item 2</li>
-                <ul>
+                <ul type="square">
                     <li>Some nested list item 1</li>
                 </ul>
             <li>List item 3</li>
@@ -70,7 +69,7 @@
         <ol>
             <li>List item 1</li>
             <li>List item 2</li>
-                <ol class="alpha">
+                <ol type="A">
                     <li>Some nested list item 1</li>
                 </ol>
             <li>List item 3</li>
@@ -100,7 +99,7 @@
         <p><small>Article description</small></p>
 
         <h3>Preformatted Text</h3>
-            <pre><p class="mach">Text
+            <pre><p>Text
   in a pre element
     is displayed in a fixed-width
 font, and it preserves
@@ -108,8 +107,8 @@ both           spaces and
     line breaks</p></pre>
 
     <h3>Code</h3>
-        <div class="cd">
-            <p class="code">
+        <div>
+            <p>
                 <code>
                     .wrapper { <br>
                     display: flex; <br>
@@ -129,6 +128,6 @@ both           spaces and
             things that would have been considered magic a few hundred years ago."<br>         
             <a href="#">Elon Musk</a></i></blockquote>
 </main>
-<footer><p class="ftr"><span class="i"></span>Copyright Epam Systems</p></footer>
+<footer><span>&#169</span>Copyright Epam Systems</footer>
 </body>
 </html>

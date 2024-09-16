@@ -1,0 +1,2 @@
+Please make template as it shown in template.png.
+Use fonts from .zip. For the title and first letter "T" you can use Times New Roman font (or just serif)

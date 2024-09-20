@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Elements</h1>
+        <hr>
+            <nav>
+                <a href="#" class="link">Home</a>
+                &nbsp;
+                <a href="#part1" class="link">Headers</a>
+                &nbsp;
+                <a href="#part2" class="link">Table</a>
+                &nbsp;
+                <a href="#part3" class="link">List</a>
+                &nbsp;
+                <a href="#part4" class="link">Text formats</a>
+                &nbsp;
+                <a href="#part5" class="link">Blockquotes</a>
+            </nav>
+        <hr>
+    </header>
+    <main>
+    <p id="part1">Pay attention to h1 tag inside section element. Font-size 
+        for h1 is the same as font-size for h2, because we have to use 
+        only one h1 on the page, and it is commonly used inside header</p>
+        <div>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        </div>
+    
+        <h2 id="part2">Table</h2>
+        <table width="100%" height="100%">
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+            <tr>
+                <td><strong>Strong</strong></td>
+                <td>CO<sub>2</sub></td>
+                <td><a href="#">Some link</a></td>
+            </tr>
+            <tr>
+                <td><i>Italic</i></td>
+                <td><abbr title="text">Abbreviation</abbr></td>
+                <td><s>Delete</s></td>
+            </tr>
+            <tr>
+                <td><u>Underline</u></td>
+                <td>5<sup>3</sup>=125</td>
+                <td><ins>Inserted</ins></td>
+            </tr>
+        </table>
+        <h2 id="part3">Unordered List</h2>
+        <ul type="square">
+            <li>List item 1</li>
+            <li>List item 2</li>
+                <ul type="square">
+                    <li>Some nested list item 1</li>
+                </ul>
+            <li>List item 3</li>
+        </ul>
+        <h2>Ordered List</h2>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+                <ol type="A">
+                    <li>Some nested list item 1</li>
+                </ol>
+            <li>List item 3</li>
+        </ol>
+        <h3>Definition List</h3>
+        <dl>
+            <dt>defines terms 1</dt>
+            <dd>description 1</dd>
+            <br>
+            <dt>defines terms 2</dt>
+            <dd>description 2</dd> 
+        </dl>
+        <h2>Details</h2>
+            <details open>
+            <summary>Some details element (open)</summary>
+                Here are more details about the details.
+            </details>
+            <details>
+            <summary>Some details element (close)</summary> 
+                Here are more details about the details.
+            </details>
+        <h2 id="part4">Text formats</h2>
+        <p><b>Article Text</b></p>
+
+        <p style="font-size: 20px;"><strong>Article title</strong></p>
+
+        <p><small>Article description</small></p>
+
+        <h3>Preformatted Text</h3>
+            <pre><p>Text
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks</p></pre>
+
+    <h3>Code</h3>
+        <div>
+            <p>
+                <code>
+                    .wrapper { <br>
+                    display: flex; <br>
+                    vertical-align: middle; <br>
+                    justify-content: center;<br>
+                    }
+                </code>
+            </p>
+        </div>
+
+    <h2 id="part5">Blockquotes</h2>
+        <p>Let’s keep it simple. Italics are good to help set it off from the body text.
+             Be sure to style the citation.</p>
+        <blockquote><i>"If you go back a few hundred years, what we take for granted today 
+            would seem like magic-being able to talk to people over long distances, to transmit 
+            images, flying, accessing vast amounts of data like an oracle. These are all 
+            things that would have been considered magic a few hundred years ago."<br>         
+            <a href="#">Elon Musk</a></i></blockquote>
+</main>
+<footer><span>&#169;&nbsp;</span>Copyright Epam Systems</footer>
+</body>
+</html>

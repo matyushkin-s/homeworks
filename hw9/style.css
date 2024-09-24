@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Proxima-light;
+    src: url(fonts/Proxima\ Nova\ Thin.otf) format(opentype);
+}
+@font-face {
+    font-family: Proxima-italic;
+    src: url(fonts/Proxima\ Nova\ Light\ Italic.otf) format(opentype);
+}
+.text, .big{
+    font-family: Proxima-light;
+    color: #b3b1b2;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.basic{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main{
+    width: 750px;
+    box-shadow: 0px 10px 50px 0px #b3b1b2;
+    padding: 50px 50px 50px 50px;
+}
+.big::first-letter{
+    font-size: 80px;
+    float: left;
+    line-height: 60px;
+    margin: 4px 20px 0 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.discover{
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #e16a00;
+    background-color: white;
+    border: 1px solid;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.quote{
+    font-family: Proxima-italic;
+    color: #b3b1b2;
+}
+.quote::before{
+    content: '\201C';
+    /* width: 20px; */
+    font-size: 40px;
+    font-family: Proxima-italic;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+}

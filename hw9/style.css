@@ -7,7 +7,7 @@
     src: url(fonts/Proxima\ Nova\ Light\ Italic.otf) format(opentype);
 }
 .text, .big{
-    font-family: Proxima-light;
+    font-family: Proxima-light, sans-serif;
     color: #b3b1b2;
     font-size: 14px;
     line-height: 1.8;
@@ -20,7 +20,7 @@
 .main{
     width: 750px;
     box-shadow: 0px 10px 50px 0px #b3b1b2;
-    padding: 50px 50px 50px 50px;
+    padding: 50px;
 }
 .big::first-letter{
     font-size: 80px;
@@ -38,20 +38,28 @@
     color: #e16a00;
     background-color: white;
     border: 1px solid;
+    cursor: pointer;
+}
+.discover:hover{
+    color: rgb(133, 4, 4);
+    box-shadow: 5px 3px 3px rgb(155, 0, 0);
+
+}
+.discover:active{
+    background-color: rgb(245, 226, 144);
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
 }
 .quote{
-    font-family: Proxima-italic;
+    font-family: Proxima-italic, sans-serif;
     color: #b3b1b2;
 }
 .quote::before{
     content: '\201C';
-    /* width: 20px; */
     font-size: 40px;
-    font-family: Proxima-italic;
+    font-family: Proxima-italic, sans-serif;
 }
 body{
     margin: 0;

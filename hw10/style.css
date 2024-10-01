@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway/Raleway-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(134 64 207 / 80%), #b3858d61);
+}
+.header{
+    color: white;
+    font-family: Raleway;
+    font-size: 60px;
+    text-align: center;
+}
+.div__text{
+    font-family: Raleway;
+    color: rgba(255, 255, 255, 0.685);
+    text-align: center;
+    font-size: 12px;
+    word-break: break-all;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+.div__gallery__center{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+}
+.div__gallery__right{
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+}
+.div__gallery__left{
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+}
+.div__gallery__headline{
+    position: absolute;
+    color: white;
+    font-family: Raleway;
+    width: 20%;
+    margin-top: 145px;
+    margin-left: 15px;
+}
+.div__gallery__text{
+    position: absolute;
+    color: white;
+    font-family: Raleway;
+    margin-top: 200px;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.div__gallery__gradient{
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    margin-top: 125px;
+}
+main{
+    margin-top: 70px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.div__button{
+    color: white;
+    background-color: #ff2a3d;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+    cursor: pointer;
+}
+.div__gallery__data{
+    position: absolute;
+    color: white;
+    background-color: #000000ab;
+    border-radius: 4px;
+    width: 4%;
+    text-align: center;
+    font-family: 'Raleway';
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.div__gallery_img{
+    width: 280px;
+    height: 225px;
+    position: relative;
+}
+.text{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}

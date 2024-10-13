@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway/Raleway-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(134 64 207 / 80%), #b3858d61);
+}
+.header{
+    color: white;
+    font-family: Raleway;
+    font-size: 60px;
+    text-align: center;
+}
+.text__basic{
+    font-family: Raleway;
+    color: rgba(255, 255, 255, 0.685);
+    text-align: center;
+    font-size: 12px;
+    word-break: break-all;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+.gallery-center{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+}
+.gallery-right{
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+}
+.gallery-left{
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+}
+.gallery-left:hover{
+    transform: scale(1.05);
+}
+.gallery_img:hover{
+    filter: blur(2px);
+}
+.gallery-center:hover{
+    transform: scale(1.05);
+}
+.gallery-right:hover{
+    transform: scale(1.05);
+}
+.gallery__headline{
+    position: absolute;
+    color: white;
+    font-family: Raleway;
+    width: 197px;
+    margin-top: 145px;
+    margin-left: 15px;
+    z-index: 3;
+}
+.gallery__text{
+    position: absolute;
+    color: white;
+    font-family: Raleway;
+    margin-top: 200px;
+    font-size: 10px;
+    margin-left: 15px;
+    z-index: 3;
+}
+.gallery__gradient{
+    background: linear-gradient(to top, black, transparent);
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    margin-top: 125px;
+    z-index: 2;
+}
+main{
+    margin-top: 70px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.wrapper__button{
+    color: white;
+    background-color: #ff2a3d;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+    cursor: pointer;
+}
+a{
+    position: absolute;
+}
+.wrapper__button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 2px 2px 2px #ff002b81;
+}
+.gallery__data{
+    position: absolute;
+    color: white;
+    background-color: #000000ab;
+    border-radius: 4px;
+    width: 38px;
+    text-align: center;
+    font-family: 'Raleway';
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    z-index: 3;
+}
+.gallery_img{
+    width: 280px;
+    height: 225px;
+    position: relative;
+    z-index: 0;
+}
+.text{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}

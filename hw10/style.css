@@ -7,50 +7,41 @@ body{
     height: 100vh;
     background: linear-gradient(rgb(134 64 207 / 80%), #b3858d61);
 }
-.header{
+h1{
     color: white;
     font-family: Raleway;
     font-size: 60px;
     text-align: center;
 }
-.text__basic{
+.text__base{
     font-family: Raleway;
     color: rgba(255, 255, 255, 0.685);
     text-align: center;
     font-size: 12px;
     word-break: break-all;
 }
-.gallery{
-    display: flex;
-    justify-content: center;
+.text{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
-.gallery-center{
+.picture {
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+    justify-content: space-evenly;
+    margin: 50px 40px 0px 40px;
 }
-.gallery-right{
-    display: flex;
-    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
+.gallery {
+box-shadow: 0px 4px 15px 0px rgb(93 20 169 / 47%);
+height: 225px;
 }
-.gallery-left{
-    display: flex;
-    box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
-}
-.gallery-left:hover{
+.gallery:hover {
     transform: scale(1.05);
 }
-.gallery_img:hover{
+.gallery_img:hover {
     filter: blur(2px);
 }
-.gallery-center:hover{
-    transform: scale(1.05);
-}
-.gallery-right:hover{
-    transform: scale(1.05);
-}
-.gallery__headline{
+.headline {
     position: absolute;
     color: white;
     font-family: Raleway;
@@ -59,7 +50,7 @@ body{
     margin-left: 15px;
     z-index: 3;
 }
-.gallery__text{
+.gallery__text {
     position: absolute;
     color: white;
     font-family: Raleway;
@@ -68,7 +59,7 @@ body{
     margin-left: 15px;
     z-index: 3;
 }
-.gallery__gradient{
+.gradient{
     background: linear-gradient(to top, black, transparent);
     position: absolute;
     width: 280px;
@@ -76,16 +67,13 @@ body{
     margin-top: 125px;
     z-index: 2;
 }
-main{
-    margin-top: 70px;
-}
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
-.wrapper__button{
+.wrapper__vw{
     color: white;
     background-color: #ff2a3d;
     border: none;
@@ -96,14 +84,11 @@ main{
     box-shadow: 0px 4px 4px 0px rgb(93 20 169 / 47%);
     cursor: pointer;
 }
-a{
-    position: absolute;
-}
-.wrapper__button:hover{
+.wrapper__vw:hover{
     transform: scale(1.05);
     box-shadow: 0px 2px 2px 2px #ff002b81;
 }
-.gallery__data{
+.data{
     position: absolute;
     color: white;
     background-color: #000000ab;
@@ -121,10 +106,4 @@ a{
     height: 225px;
     position: relative;
     z-index: 0;
-}
-.text{
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
 }

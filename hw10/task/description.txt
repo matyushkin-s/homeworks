@@ -1,0 +1,4 @@
+Please make template section as it shown in mockup-10.png.
+
+Read info on lesson 11 about BEM-methodology and write classes in it please.
+Additionally you can add some interesting font by your own, by link or upload to git (what you learned from lesson 9)
